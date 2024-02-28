@@ -34,7 +34,7 @@ function About() {
             </Box>
             <Box>
               <Typography className="ab-h2-text">100+</Typography>
-              <Typography className="ab-s2-text">venues</Typography>
+              <Typography className="ab-s2-text">events</Typography>
             </Box>
           </Box>
         </Box>
