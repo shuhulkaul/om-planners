@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/om-planners/static/css/main.1167ef5b.css",
-    "main.js": "/om-planners/static/js/main.7f97547a.js",
+    "main.css": "/om-planners/static/css/main.f704df84.css",
+    "main.js": "/om-planners/static/js/main.e2be0ab8.js",
     "static/media/wed.webp": "/om-planners/static/media/wed.ece35bd7f7a5effb1004.webp",
     "static/media/footer-bg.png": "/om-planners/static/media/footer-bg.d01ea0d03e325c3a7b7a.png",
     "static/media/logo.png": "/om-planners/static/media/logo.443ab30dfcdfbf52f593.png",
@@ -21,11 +21,11 @@
     "static/media/cir-btn.png": "/om-planners/static/media/cir-btn.fd0c604df660594983f5.png",
     "static/media/cir-btn-l.png": "/om-planners/static/media/cir-btn-l.9ecfcc0172a822a12ec7.png",
     "index.html": "/om-planners/index.html",
-    "main.1167ef5b.css.map": "/om-planners/static/css/main.1167ef5b.css.map",
-    "main.7f97547a.js.map": "/om-planners/static/js/main.7f97547a.js.map"
+    "main.f704df84.css.map": "/om-planners/static/css/main.f704df84.css.map",
+    "main.e2be0ab8.js.map": "/om-planners/static/js/main.e2be0ab8.js.map"
   },
   "entrypoints": [
-    "static/css/main.1167ef5b.css",
-    "static/js/main.7f97547a.js"
+    "static/css/main.f704df84.css",
+    "static/js/main.e2be0ab8.js"
   ]
 }
