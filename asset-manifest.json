@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/om-planners/static/css/main.1981bf15.css",
+    "main.js": "/om-planners/static/js/main.ab91da9c.js",
+    "static/media/wed.webp": "/om-planners/static/media/wed.ece35bd7f7a5effb1004.webp",
+    "static/media/footer-bg.png": "/om-planners/static/media/footer-bg.d01ea0d03e325c3a7b7a.png",
+    "static/media/logo.png": "/om-planners/static/media/logo.443ab30dfcdfbf52f593.png",
+    "static/media/about.jpg": "/om-planners/static/media/about.6db24fe3d6cbfef9c67c.jpg",
+    "static/media/Melodrama-Medium.ttf": "/om-planners/static/media/Melodrama-Medium.3444523e3a3ed23f349a.ttf",
+    "static/media/light-deco.png": "/om-planners/static/media/light-deco.6d6a095e003c16a8d2de.png",
+    "static/media/flower.png": "/om-planners/static/media/flower.b4ea373dbd39892a2c8e.png",
+    "static/media/wedding.png": "/om-planners/static/media/wedding.6c91c53829f02b18f2d1.png",
+    "static/media/birthday.png": "/om-planners/static/media/birthday.03113a3f0984d7a3cfe1.png",
+    "static/media/school.png": "/om-planners/static/media/school.be2a791d1d566747ab72.png",
+    "static/media/catering.png": "/om-planners/static/media/catering.b25dae19f7d6df3e646a.png",
+    "static/media/corporate.png": "/om-planners/static/media/corporate.f7d15da774428da5834e.png",
+    "static/media/tent.png": "/om-planners/static/media/tent.43efb0af49aa2891edb0.png",
+    "static/media/logo-with-heading.png": "/om-planners/static/media/logo-with-heading.2768883d23fad4cbee54.png",
+    "static/media/logo-with-heading-dark.png": "/om-planners/static/media/logo-with-heading-dark.28b9c0c731a2d947e297.png",
+    "static/media/cir-btn-t.png": "/om-planners/static/media/cir-btn-t.1e8a0005981476c52127.png",
+    "static/media/cir-btn.png": "/om-planners/static/media/cir-btn.fd0c604df660594983f5.png",
+    "static/media/cir-btn-l.png": "/om-planners/static/media/cir-btn-l.9ecfcc0172a822a12ec7.png",
+    "index.html": "/om-planners/index.html",
+    "main.1981bf15.css.map": "/om-planners/static/css/main.1981bf15.css.map",
+    "main.ab91da9c.js.map": "/om-planners/static/js/main.ab91da9c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1981bf15.css",
+    "static/js/main.ab91da9c.js"
+  ]
+}
