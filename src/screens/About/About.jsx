@@ -1,7 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import "./about.css";
 import ab from "../../resources/img/about.jpg";
-import flowerBorder from "../../resources/img/flower-border.png";
 function About() {
   return (
     <Box className="screen about" id="about">
@@ -10,18 +9,6 @@ function About() {
       </Typography>
       <Box className="ab-main">
         <Box className="ab-img-container">
-          <Box
-            component="img"
-            draggable={false}
-            src={flowerBorder}
-            className="flower-border"
-          />
-          <Box
-            component="img"
-            src={flowerBorder}
-            draggable={false}
-            className="flower-border-rev"
-          />
           <Box component="img" draggable={false} src={ab} className="ab-img" />
         </Box>
         <Box className="ab-textbox">

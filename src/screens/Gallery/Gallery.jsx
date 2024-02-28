@@ -11,7 +11,6 @@ import {
   Typography,
 } from "@mui/material";
 import "./gallery.css";
-import flowerBorder from "../../resources/img/flower-border.png";
 import cirBtn from "../../resources/img/cir-btn.png";
 import cirBtnL from "../../resources/img/cir-btn-l.png";
 import cirBtnT from "../../resources/img/cir-btn-t.png";
@@ -112,24 +111,6 @@ function Gallery() {
         </Box>
       )}
       <Box className="img-list" sx={{ maxWidth: "90vw" }}>
-        {!showGallery && (
-          <Box
-            component="img"
-            draggable={false}
-            src={flowerBorder}
-            className="gal-flower-border-l"
-            sx={{ zIndex: 2 }}
-          />
-        )}
-        {!showGallery && (
-          <Box
-            component="img"
-            draggable={false}
-            src={flowerBorder}
-            className="gal-flower-border-r"
-            sx={{ zIndex: 2 }}
-          />
-        )}
         <ImageList
           id="img-list"
           cols={2}
