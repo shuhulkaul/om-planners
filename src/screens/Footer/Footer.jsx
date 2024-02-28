@@ -60,7 +60,12 @@ function Contact() {
             <br /> Uttarakhand, India - 263148
           </Typography>
         </Box>
-        <Box sx={{ textAlign: { md: "start", xs: "center" }, pt: { xs: 4 } }}>
+        <Box
+          sx={{
+            textAlign: { md: "start", xs: "center" },
+            pt: { xs: 4, md: 0 },
+          }}
+        >
           <Typography className="ab-h-text">Contact</Typography>
           <Typography className="ab-s-text">+91-6397803329</Typography>
           <Typography className="ab-s-text">
@@ -69,7 +74,7 @@ function Contact() {
           <Typography className="ab-s-text">contact@omplanners.com</Typography>
         </Box>
       </Box>
-      <Box sx={{ m: "auto", p: 5 }}>
+      <Box sx={{ m: "auto", pt: 15 }}>
         <span>All Rights Reserved © OM PLANNERS {getYear()} </span>
         <br />
         <span>Developed by KAULiNFINITY</span>

@@ -4,7 +4,7 @@ import ab from "../../resources/img/about.jpg";
 function About() {
   return (
     <Box className="screen about" id="about">
-      <Typography className="s-title" sx={{ pt: "120px" }}>
+      <Typography className="s-title" sx={{ pt: "100px" }}>
         About Us
       </Typography>
       <Box className="ab-main">
@@ -24,7 +24,7 @@ function About() {
             sx={{
               display: "flex",
               justifyContent: "start",
-              mt: "50px",
+              mt: "20px",
               gap: "50px",
             }}
           >

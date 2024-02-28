@@ -134,7 +134,7 @@ function Gallery() {
                 srcSet={`${item.img}`}
                 src={`${item.img}`}
                 alt={item.title}
-                loading="lazy"
+                // loading="lazy"
               />
             </ImageListItem>
           ))}
