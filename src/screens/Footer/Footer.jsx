@@ -74,7 +74,7 @@ function Contact() {
           <Typography className="ab-s-text">contact@omplanners.com</Typography>
         </Box>
       </Box>
-      <Box sx={{ m: "auto", pt: 15 }}>
+      <Box sx={{ m: "auto", p: { md: 15, xs: 5 } }}>
         <span>All Rights Reserved © OM PLANNERS {getYear()} </span>
         <br />
         <span>Developed by KAULiNFINITY</span>
