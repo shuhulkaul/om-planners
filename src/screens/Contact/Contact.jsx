@@ -59,14 +59,14 @@ function Contact() {
             }}
           >
             <InputLabel>Category</InputLabel>
-            <Select label="Category" fullWidth value={30}>
-              <MenuItem value={10}>All</MenuItem>
+            <Select label="Category" fullWidth value={20}>
               <MenuItem value={20}>Wedding Events</MenuItem>
               <MenuItem value={30}>School Events</MenuItem>
               <MenuItem value={40}>Corporate Events</MenuItem>
               <MenuItem value={50}>Birthday Parties</MenuItem>
               <MenuItem value={60}>Decor</MenuItem>
               <MenuItem value={70}>Food & Catering</MenuItem>
+              <MenuItem value={10}>Other</MenuItem>
             </Select>
           </FormControl>
         </Box>
