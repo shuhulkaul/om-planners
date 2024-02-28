@@ -7,7 +7,7 @@ import Gallery from "./screens/Gallery";
 import Hero from "./screens/Hero";
 import Services from "./screens/Services";
 import { ThemeProvider, createTheme } from "@mui/material/styles";
-import Loading from "./screens/Loading";
+// import Loading from "./screens/Loading";
 
 function App() {
   let theme = createTheme({

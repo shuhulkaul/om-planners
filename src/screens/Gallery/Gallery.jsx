@@ -90,10 +90,12 @@ function Gallery() {
         Gallery
       </Typography>
       {showGallery && (
-        <Box id="gal-cat" sx={{ minWidth: 150, p: 2 }}>
+        <Box id="gal-cat" sx={{ p: 2 }}>
           <FormControl
             sx={{
               zIndex: 2,
+              textAlign: "start",
+              minWidth: { xs: "30vw", md: "20vw" },
             }}
           >
             <InputLabel>Category</InputLabel>
@@ -109,7 +111,7 @@ function Gallery() {
           </FormControl>
         </Box>
       )}
-      <Box className="img-list" sx={{ maxWidth: "70vw" }}>
+      <Box className="img-list" sx={{ maxWidth: "90vw" }}>
         {!showGallery && (
           <Box
             component="img"
