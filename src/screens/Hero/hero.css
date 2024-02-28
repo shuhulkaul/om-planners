@@ -12,6 +12,7 @@
 .logo-tag {
   width: 295px;
   height: 95px;
+  cursor: pointer;
 }
 .header {
   padding: 10px 5vw;
