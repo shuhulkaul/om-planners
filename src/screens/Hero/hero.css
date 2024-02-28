@@ -1,0 +1,66 @@
+.hero {
+  background-image: url("../../resources/img/wed.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* animation: greyscale-fade-in 2.5s ease-in forwards; */
+  background-position: center;
+  /* text-align: center;
+  display: flex;
+  align-items: center; */
+  /* backdrop-filter: blur(3px); */
+}
+.logo-tag {
+  width: 295px;
+  height: 95px;
+}
+.header {
+  padding: 10px 5vw;
+  display: flex;
+  gap: 20vw;
+  justify-content: center;
+  position: relative;
+}
+
+.h-items {
+  gap: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+.h-item {
+  color: white;
+  font-weight: 600 !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  cursor: pointer;
+}
+
+.h-item:hover {
+  /* text-decoration: underline #ff7b01 5px;
+  text-underline-offset: 10px; */
+  color: #ff7b01;
+}
+
+.logo-divider {
+  height: 174px;
+  width: 174px;
+  position: absolute;
+  bottom: -87px;
+  left: calc(50% - 87px);
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-tag {
+    width: 225px;
+    height: 75px;
+  }
+  .logo-divider {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    bottom: -50px;
+    left: calc(50% - 50px);
+  }
+  .h-items {
+    display: none;
+  }
+}

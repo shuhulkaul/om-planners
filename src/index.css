@@ -1,13 +1,179 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Melodrama";
+  src: url("/src/resources/font/Melodrama-Medium.ttf") format("truetype");
+}
+
+.screen {
+  min-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.s-title {
+  color: black !important;
+  font-family: Melodrama !important;
+  font-size: 73px !important;
+  /* font-weight: 500 !important; */
+  line-height: 98px !important;
+}
+
+.logo-divider-blur-l {
+  height: 560px;
+  width: 560px;
+  position: absolute;
+  left: -400px;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+.logo-divider-blur-r {
+  height: 560px;
+  width: 560px;
+  position: absolute;
+  right: -420px;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+.logo-divider-blur {
+  height: 560px;
+  width: 560px;
+  position: absolute;
+  bottom: -280px;
+  left: -280px;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6e6e6e;
+}
+.btn {
+  background-color: #ff7b01 !important;
+  color: white !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  width: 200px !important;
+  height: 42px !important;
+  box-shadow: none !important;
+  text-transform: none !important;
+}
+
+.ab-h-text {
+  font-weight: 600 !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 30px !important;
+  line-height: 36px !important;
+}
+.ab-h2-text {
+  font-weight: 600 !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 54px !important;
+  line-height: 36px !important;
+}
+.ab-s-text {
+  margin-top: 10px !important;
+  /* font-weight: 400 !important; */
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 22px !important;
+  line-height: 27px !important;
+}
+.ab-s2-text {
+  margin-top: 10px !important;
+  /* font-weight: 400 !important; */
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-size: 22px !important;
+  line-height: 27px !important;
+}
+
+#outlined-basic {
+  background-color: #fff2da !important;
+}
+.MuiSelect-select {
+  background-color: #fff2da !important;
+}
+/* #outlined-basic-label {
+  color: black !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+} */
+label {
+  color: black !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+span {
+  /* color: #ff7b01 !important; */
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  word-spacing: 2px;
+  /* letter-spacing: 2px; */
+  margin: 10px !important;
+  opacity: 50%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-divider-blur-l {
+    display: none;
+  }
+  .logo-divider-blur-r {
+    display: none;
+  }
+  .logo-divider-blur {
+    display: none;
+  }
+  .ab-h-text {
+    font-weight: 600 !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-size: 20px !important;
+    line-height: 23px !important;
+  }
+  .ab-h2-text {
+    font-weight: 600 !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-size: 36px !important;
+    line-height: 23px !important;
+  }
+  .ab-s-text {
+    margin-top: 10px !important;
+    /* font-weight: 400 !important; */
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+  }
+  .ab-s2-text {
+    margin-top: 10px !important;
+    /* font-weight: 400 !important; */
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+  }
+  .s-title {
+    color: black !important;
+    font-family: Melodrama !important;
+    font-size: 48px !important;
+    /* font-weight: 500 !important; */
+    line-height: 65px !important;
+  }
 }

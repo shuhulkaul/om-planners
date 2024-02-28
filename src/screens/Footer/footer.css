@@ -1,0 +1,20 @@
+.footer {
+  background-image: url("../../resources/img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.footer-logo {
+  width: 295px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .social {
+    width: 30px;
+    height: 30px;
+  }
+}
