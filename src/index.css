@@ -82,6 +82,7 @@ body {
   height: 42px !important;
   box-shadow: none !important;
   text-transform: none !important;
+  font-size: 1rem !important;
 }
 
 .ab-h-text {
@@ -134,8 +135,10 @@ span {
   opacity: 50%;
   font-size: 14px !important;
 }
-
-@media only screen and (max-width: 1024px) {
+.MuiSelect-select {
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+}
+@media only screen and (max-width: 1750px) {
   .logo-divider-blur-l {
     display: none;
   }
@@ -145,6 +148,8 @@ span {
   .logo-divider-blur {
     display: none;
   }
+}
+@media only screen and (max-width: 1024px) {
   .ab-h-text {
     font-weight: 600 !important;
     font-family: "Plus Jakarta Sans", sans-serif !important;
@@ -177,5 +182,8 @@ span {
     font-size: 48px !important;
     /* font-weight: 500 !important; */
     line-height: 65px !important;
+  }
+  .btn {
+    font-size: 1rem !important;
   }
 }
