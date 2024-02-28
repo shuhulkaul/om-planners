@@ -88,28 +88,28 @@ body {
 .ab-h-text {
   font-weight: 600 !important;
   font-family: "Plus Jakarta Sans", sans-serif !important;
-  font-size: 30px !important;
-  line-height: 36px !important;
+  font-size: 28px !important;
+  line-height: 32px !important;
 }
 .ab-h2-text {
   font-weight: 600 !important;
   font-family: "Plus Jakarta Sans", sans-serif !important;
-  font-size: 54px !important;
-  line-height: 36px !important;
+  font-size: 50px !important;
+  line-height: 32px !important;
 }
 .ab-s-text {
   margin-top: 10px !important;
   /* font-weight: 400 !important; */
   font-family: "Plus Jakarta Sans", sans-serif !important;
-  font-size: 22px !important;
-  line-height: 27px !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
 }
 .ab-s2-text {
   margin-top: 10px !important;
   /* font-weight: 400 !important; */
   font-family: "Plus Jakarta Sans", sans-serif !important;
-  font-size: 22px !important;
-  line-height: 27px !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
 }
 
 #outlined-basic {

@@ -6,7 +6,7 @@
 .ab-main {
   display: flex;
   padding: 5vw;
-  gap: 10vw;
+  gap: 5vw;
   justify-content: center;
   align-items: center;
 }
