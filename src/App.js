@@ -20,32 +20,18 @@ function App() {
       },
     },
   });
-  const [isLoading, setIsLoading] = React.useState(true);
-
-  const handleLoading = () => {
-    setIsLoading(false);
-  };
-
-  React.useEffect(() => {
-    window.addEventListener("load", handleLoading);
-    return () => window.removeEventListener("load", handleLoading);
-  }, []);
 
   return (
     <div className="App">
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <ThemeProvider theme={theme}>
-          <Hero />
-          <About />
-          <Services />
-          <Events />
-          <Gallery />
-          <Contact />
-          <Footer />
-        </ThemeProvider>
-      )}
+      <ThemeProvider theme={theme}>
+        <Hero />
+        <About />
+        <Services />
+        <Events />
+        <Gallery />
+        <Contact />
+        <Footer />
+      </ThemeProvider>
     </div>
   );
 }
