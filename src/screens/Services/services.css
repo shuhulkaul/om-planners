@@ -27,6 +27,18 @@
 
   .ser-item {
     padding: 10px;
+    width: 200px;
+    height: 260px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .ser-items {
+    display: block;
+  }
+
+  .ser-item {
+    padding: 10px;
     width: 150px;
     height: 200px;
   }
